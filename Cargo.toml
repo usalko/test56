@@ -1,0 +1,17 @@
+[package]
+name = "rust-exercises"
+version = "0.1.0"
+edition = "2025"
+
+[dev-dependencies]
+assert_cmd = "2.0"    # Для тестирования CLI выводов
+predicates = "2.1"    # Для утверждений в тестах
+
+[[bin]]
+name = "exercise001"
+path = "examples/exercise001.rs"
+
+[[bin]]
+name = "exercise002"
+path = "examples/exercise002.rs"
+
