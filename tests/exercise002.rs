@@ -2,15 +2,15 @@ use assert_cmd::Command;
 use predicates::prelude::*;
 
 /**
- * 1. Rust System information gathering program
+ * 2. Rust Program: Adding two numbers
  *
  *
- * Write a Rust program that gathers system information such as the Rust version, operating system details, and system architecture.
+ * Write a Rust program that accepts two numbers from the user, adds them together, and displays the result.
  *
  */
 #[test]
-fn test_exercise001_output() {
-    let mut cmd = Command::cargo_bin("exercise001").unwrap();
+fn test_exercise002_output() {
+    let mut cmd = Command::cargo_bin("exercise002").unwrap();
     cmd.assert()
         .success()
         .stdout(predicate::str::contains("Name : Alex Johnson"))

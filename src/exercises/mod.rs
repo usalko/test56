@@ -1,3 +1,3 @@
 pub mod exercise001;
-//pub mod exercise002;
+pub mod exercise002;
 // Next module
